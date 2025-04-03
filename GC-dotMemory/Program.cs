@@ -154,7 +154,7 @@ namespace GC_dotMemory
         // 2. Operacja na bitmapie w unmanaged memory
         static void UnmanagedBitmapDemo()
         {
-            int width = 1024, height = 768;
+            int width = 3840, height = 2049;
             using (var bitmap = new UnmanagedBitmap(width, height))
             {
                 bitmap.Fill(128);
@@ -175,7 +175,7 @@ namespace GC_dotMemory
         // 3. Operacja na bitmapie w managed memory
         static void ManagedBitmapDemo()
         {
-            int width = 1024, height = 768;
+            int width = 3840, height = 2160;
             byte[,] bitmap = new byte[height, width];
  
             for (int i = 0; i < height; i++)
@@ -185,10 +185,7 @@ namespace GC_dotMemory
             bitmap[0, 0] = 255;
             Console.WriteLine("Managed bitmapa (byte[,]) przetworzona.");
         }
- 
-        // 4. Symulacja analizy pamięci – rzeczywista analiza wykonywana przez narzędzia zewnętrzne takich jak DotMemory lub PerfView
 
- 
         // 5. Wymuszenie GC.Collect i zmiana ustawień GC (przykład: LowLatency, kompaktacja LOH itp.)
         static void GCDemo()
         {
