@@ -1,0 +1,15 @@
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\bin\Debug\net7.0\GC-dotMemory.exe
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\bin\Debug\net7.0\GC-dotMemory.deps.json
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\bin\Debug\net7.0\GC-dotMemory.runtimeconfig.json
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\bin\Debug\net7.0\GC-dotMemory.dll
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\bin\Debug\net7.0\GC-dotMemory.pdb
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.csproj.AssemblyReference.cache
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.GeneratedMSBuildEditorConfig.editorconfig
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.AssemblyInfoInputs.cache
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.AssemblyInfo.cs
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.csproj.CoreCompileInputs.cache
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.dll
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\refint\GC-dotMemory.dll
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.pdb
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.genruntimeconfig.cache
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\ref\GC-dotMemory.dll
