@@ -70,9 +70,8 @@ namespace GC_dotMemory
                 Console.WriteLine("1. Mnożenie macierzy dużej przez macierz małą");
                 Console.WriteLine("2. Operacja na bitmapie w unmanaged memory");
                 Console.WriteLine("3. Operacja na bitmapie w managed memory (byte[,])");
-                Console.WriteLine("4. Analiza wykorzystania pamięci (symulacja, sprawdź narzędzia zewnętrzne)");
-                Console.WriteLine("5. Zmiana parametrów GC i wymuszenie GC.Collect (symulacja konfiguracji GC)");
-                Console.WriteLine("6. Techniki optymalizacji kodu (pooling, fixed, Dispose, LowLatencyMode)");
+                Console.WriteLine("4. Zmiana parametrów GC i wymuszenie GC.Collect (symulacja konfiguracji GC)");
+                Console.WriteLine("5. Techniki optymalizacji kodu (pooling, fixed, Dispose, LowLatencyMode)");
                 Console.WriteLine("0. Wyjście");
                 Console.Write("Wybierz opcję (0-6): ");
  

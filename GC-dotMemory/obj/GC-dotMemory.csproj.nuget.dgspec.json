@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\PROGRAMOWANIE\\C#\\ZTP\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory.csproj": {}
+    "D:\\Programowanie\\Rider\\ZTP-GC\\GC-dotMemory\\GC-dotMemory.csproj": {}
   },
   "projects": {
-    "G:\\PROGRAMOWANIE\\C#\\ZTP\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory.csproj": {
+    "D:\\Programowanie\\Rider\\ZTP-GC\\GC-dotMemory\\GC-dotMemory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\PROGRAMOWANIE\\C#\\ZTP\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory.csproj",
+        "projectUniqueName": "D:\\Programowanie\\Rider\\ZTP-GC\\GC-dotMemory\\GC-dotMemory.csproj",
         "projectName": "GC-dotMemory",
-        "projectPath": "G:\\PROGRAMOWANIE\\C#\\ZTP\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory.csproj",
-        "packagesPath": "C:\\Users\\JJ\\.nuget\\packages\\",
-        "outputPath": "G:\\PROGRAMOWANIE\\C#\\ZTP\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory\\obj\\",
+        "projectPath": "D:\\Programowanie\\Rider\\ZTP-GC\\GC-dotMemory\\GC-dotMemory.csproj",
+        "packagesPath": "C:\\Users\\xdkub\\.nuget\\packages\\",
+        "outputPath": "D:\\Programowanie\\Rider\\ZTP-GC\\GC-dotMemory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\xdkub\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\JJ\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
