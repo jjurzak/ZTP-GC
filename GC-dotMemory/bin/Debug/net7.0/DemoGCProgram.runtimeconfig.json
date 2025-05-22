@@ -1,0 +1,43 @@
+{
+  "runtimeOptions": {
+    "configProperties": {
+      // --- TRYBY GC ---
+      // Ustaw jeden z poniższych (lub pozostaw domyślne - Workstation GC)
+      // "System.GC.Server": true,     // Włącza Server GC. Domyślnie false.
+                                      // Server GC jest optymalizowany pod kątem przepustowości, ma osobne sterty na rdzeń.
+                                      // Workstation GC jest optymalizowany pod kątem responsywności (mniejsze pauzy).
+      // "System.GC.Concurrent": true, // Domyślnie true dla Workstation GC, false dla Server GC.
+                                      // Pozwala na wykonywanie części pracy GC współbieżnie z działaniem aplikacji.
+                                      // Dla Server GC, jeśli to jest true, GC będzie współbieżne.
+      // "System.GC.RetainVM": false,  // Czy GC ma zwalniać pamięć do systemu (true), czy trzymać ją (false)
+                                      // dla przyszłych alokacji. Może być przydatne w Server GC.
+
+      // --- LIMITY STERTY ---
+      // Ustawiaj ostrożnie, nieprawidłowe wartości mogą pogorszyć wydajność lub spowodować OutOfMemoryException.
+      // "System.GC.HeapHardLimit": 209715200,          // Twardy limit całej sterty GC w bajtach (np. 200MB)
+      // "System.GC.HeapHardLimitPercent": 50,          // Twardy limit sterty jako % fizycznej pamięci (0-100, efektywnie do ~90-97%)
+      // "System.GC.HeapHardLimitSOH": 104857600,       // Twardy limit dla Small Object Heap (SOH) w bajtach
+      // "System.GC.HeapHardLimitLOH": 52428800,        // Twardy limit dla Large Object Heap (LOH) w bajtach
+      // "System.GC.HeapHardLimitPOH": 52428800,        // Twardy limit dla Pinned Object Heap (POH) w bajtach (.NET 5+)
+      
+      // "System.GC.PinnedObjectHeapHardLimitPercent": 10, // Limit dla POH jako procent całkowitego HeapHardLimit (0-90). Domyślnie POH nie ma osobnego limitu % tylko bierze z ogólnego.
+
+      // --- ZACHOWANIE GC ---
+      // "System.GC.HighMemoryPercent": 80,             // Procent zajętej pamięci (względem limitu sterty lub fizycznej pamięci),
+                                                       // po przekroczeniu którego GC staje się bardziej agresywne i może wymusić pełne,
+                                                       // blokujące zbieranie śmieci. Domyślnie 90.
+      "System.GC.LargeObjectHeapThreshold": 100000,  // Próg w bajtach, powyżej którego obiekty są alokowane na LOH.
+                                                       // Domyślnie ok. 85000. Zwiększenie może zmniejszyć fragmentację LOH
+                                                       // ale więcej obiektów będzie musiało przejść przez pełne GC.
+      // "System.GC.ConserveMemory": 0,                 // Wartość od 0 do 9. Wyższe wartości oznaczają, że GC będzie
+                                                       // bardziej agresywnie próbowało zmniejszyć zużycie pamięci przez proces,
+                                                       // kosztem częstszych kolekcji. Domyślnie 0.
+
+      // --- INNE (zaawansowane lub specyficzne) ---
+      // "System.GC.AllowVeryLargeObjects": false,     // Domyślnie false. Ustaw na true na platformach 64-bit, aby pozwolić
+                                                       // na alokację tablic większych niż 2GB.
+      // "System.GC.ForceCompactAware": true,          // Używane z kompaktowaniem LOH.
+      // "System.GC.NoAffinitize": true                // Dla Server GC, zapobiega przypisywaniu wątków GC i stert do konkretnych CPU.
+    }
+  }
+}

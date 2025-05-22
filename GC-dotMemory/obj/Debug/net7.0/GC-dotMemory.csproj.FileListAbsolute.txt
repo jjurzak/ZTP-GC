@@ -13,3 +13,5 @@ G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\
 G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.pdb
 G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.genruntimeconfig.cache
 G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\ref\GC-dotMemory.dll
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\PROGRAMOWANIE\C#\ZTP\GC-dotMemory\GC-dotMemory\GC-dotMemory\obj\Debug\net7.0\GC-dotMemory.csproj.CopyComplete

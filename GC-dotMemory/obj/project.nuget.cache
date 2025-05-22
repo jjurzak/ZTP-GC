@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Cs/0xgYHDlm9KOjhMyXzBVZimOL7YaQaXBR83AkiTjfu+BIv56b7cLyynxI5SepHsxPt4Midp99uxxos5qc6FQ==",
+  "dgSpecHash": "ZLDwnjcpSAz/I2lB2ohU4wZbPz+XB0uLI/hOLKiMULQ1cYfA/PHISc0AUkEv+qIDApzPZ+iZ+Yv3LbzxeUZi+Q==",
   "success": true,
   "projectFilePath": "G:\\PROGRAMOWANIE\\C#\\ZTP\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory\\GC-dotMemory.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\JJ\\.nuget\\packages\\system.drawing.common\\10.0.0-preview.4.25258.110\\system.drawing.common.10.0.0-preview.4.25258.110.nupkg.sha512"
+  ],
   "logs": []
 }
